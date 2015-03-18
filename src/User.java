@@ -1,5 +1,5 @@
 /**
- * Created by Familia López Ochoa on 16/03/2015.
+ * Created by Familia López Ochoa on 16/03/2015. dolopezo
  */
 public class User {
     String name;
