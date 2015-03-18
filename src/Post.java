@@ -40,7 +40,15 @@ public class Post {
 		return isAllowed;
 	}
 	
-    public void comment(){ 
+	public void setFiles(List<File> files) {
+		this.files = files;
+	}
+	
+    public List<File> getFiles() {
+		return files;
+	}
+
+	public void comment(){ 
     	throw new UnsupportedOperationException("Método no implementado");
 	}
 	
