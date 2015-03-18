@@ -15,4 +15,28 @@ public class Forum {
         dateCreated = new Date();
         dateCreated.setTime(GregorianCalendar.getInstance().getTimeInMillis());
     }
+    
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setDateCreated(Date dateCreated){
+        this.dateCreated = dateCreated;
+    }
+
+    public void setCategory(String category){
+        this.category = category;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getCategory(){
+        return  category;
+    }
+
+    public Date getDateCreated(){
+        return dateCreated;
+    }
 }
