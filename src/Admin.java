@@ -3,7 +3,7 @@ import java.util.*
 public class Admin{
 
   private int level;
-  private rating double;
+  private double rating;
 
   public void setLevel( int level ){
     this.level = level;
