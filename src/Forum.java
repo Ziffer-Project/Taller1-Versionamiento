@@ -1,13 +1,13 @@
-import java.util.Date;
-import java.util.GregorianCalendar;
+import java.util.*;
 
-/**
- * Created by david on 18/03/15.
- */
 public class Forum {
+	
     private String name;
     private Date dateCreated;
     private String category;
+    private List<Post> posts = new ArrayList<Post>();
+    
+    public Forum(){}
 
     public Forum(String name, String category){
         this.name = name;
@@ -39,4 +39,12 @@ public class Forum {
     public Date getDateCreated(){
         return dateCreated;
     }
+    
+    public void setPosts(List<Post> posts){
+		this.posts = posts;
+	}
+	
+	public List<Post> getPosts(){
+		return posts;
+	}
 }
