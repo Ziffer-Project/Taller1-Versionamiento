@@ -1,12 +1,10 @@
-/**
- * Created by Familia López Ochoa on 16/03/2015. dolopezo
- */
 public class User {
-    String name;
-    String lastname;
-    int age;
-    String username;
-    String password;
+	
+    private String name;
+    private String lastname;
+    private int age;
+    private String username;
+    private String password;
 
     public String getName(){
         return name;
@@ -47,6 +45,5 @@ public class User {
     public void setPassword(String password){
         this.password=password;
     }
-
-
+    
 }
