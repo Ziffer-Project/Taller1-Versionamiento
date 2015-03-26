@@ -49,14 +49,14 @@ public class Post {
 	}
 
 	public void comment(){ 
-    	throw new UnsupportedOperationException("Mï¿½todo no implementado");
+    	throw new UnsupportedOperationException("Método no implementado");
 	}
 	
     public void rate(String someRate){
-    	throw new UnsupportedOperationException("Mï¿½todo no implementado");
+    	throw new UnsupportedOperationException("Método no implementado");
     }
     
     public void share(){
-     	throw new UnsupportedOperationException("Mï¿½todo no implementado");
+     	throw new UnsupportedOperationException("Método no implementado");
     }
 }
